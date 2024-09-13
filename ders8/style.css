@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 8px 0;
+    background-color: #0071F8;
+    border-radius: 0 0 25px 25px;
+    z-index: 1;
+}
+
+.head {
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.headimg img {
+    width: 110px;
+    height: 41.5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 19px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.home {
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home1:hover {
+    transition: 0.5s;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button {
+    background-color: #EE626B;
+    color: white;
+    border-radius: 20px;
+}
+
+.picture {
+    background-image: url(https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg);
+    width: 100%;
+    height: 980px;
+    border-radius: 0 0 180px 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    width: 85%;
+    height: 510px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 660px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.text h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.text h2 {
+    font-size: 48px;
+    color: white;
+}
+
+.text span {
+    font-size: 14px;
+    color: white;
+}
+
+.img img {
+    width: 415.99px;
+    height: 510px;
+    border-radius: 30px;
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+}
+
+.text button {
+    width: 150.49px;
+    height: 50px;
+    color: white;
+    background-color: #EE626B;
+    position: absolute;
+    left: 430px;
+    bottom: 315px;
+    border: none;
+    border-radius: 30px;
+}
+
+.faiz {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EE626B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 450px;
+    bottom: 210px;
+}
+
+.faiz span {
+    font-size: 40px;
+    color: white;
+}
+
+.text button:hover {
+    background-color: #0D6EFD;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.dollar {
+    width: 70px;
+    height: 41px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D6EFD;
+    position: absolute;
+    right: 130px;
+    top: 250px;
+}
+
+.dollar p {
+    font-size: 22px;
+    color: white;
+}
+
+.box {
+    width: 90%;
+    height: 205px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 79px;
+    top: 890px;
+}
+
+.minibox {
+    width: 306px;
+    height: 205px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 20px;
+}
+
+.icone {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #0D6EFD;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone i {
+    font-size: 30px;
+    color: white;
+}
+
+.trending {
+    width: 90%;
+    height: 430px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trending h3 {
+    color: #EE626B;
+}
+
+.viev {
+    width: 121.9px;
+    height: 50px;
+    background-color: #EE626B;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.viev:hover {
+    background-color: #0D6EFD;
+    transition: 0.5s;
+}
+
+.tendinghead {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.box1 {
+    font-size: 40px;
+}
+
+.box2 img {
+    width: 306px;
+    height: 224px;
+    border-radius: 40px;
+
+}
+
+.box2 {
+    width: 306px;
+    height: 303px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.action{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sebet{
+    width: 30px;
+    height: 30px;
+    background-color: #EE626B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.action1{
+    font-size: 10px;
+}
+.action2{
+    font-size: 20px;
+}
+.umumi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bir{
+    width: 62px;
+    height: 60px;
+
+    position: absolute;
+    left: 305px;
+    top: 1432px;
+}
+.xet{
+    text-decoration: line-through;
+}
+
+.iki{
+    width: 62px;
+    height: 40px;
+
+    position: absolute;
+    left: 650px;
+    top: 1440px;
+}
+.uc{
+    width: 62px;
+    height: 60px;
+
+    position: absolute;
+    right: 444px;
+    top: 1432px;
+}
+.dort{
+    width: 62px;
+    height: 40px;
+    
+    position: absolute;
+    right: 95px;
+    top: 1440px;
+}
+.boxss{
+    background-color: #0D6EFD;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin: 30px 0 0 0;
+    min-height: 150px;
+    background-color: #0D6EFD;
+    border-radius: 150px 150px 0 0;
+}
+.footer{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+}
+.footer a{
+color: white;
+}
+.box2:hover{
+    color: #0D6EFD;
+}
+.sebet:hover{
+    background-color: #0D6EFD;
+}
